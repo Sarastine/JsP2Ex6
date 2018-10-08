@@ -1,0 +1,27 @@
+<!--Dans le fichier HTML fourni, faire comme dans l'exercice 5 mais remettre l'image d'origine dès que la souris ne survol plus l'image.
+Bonus Ne faire que deux fonctions JavaScript pour cet exercice.-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="Assets/css/Ex6Js.css">
+		<title>Js Part 2 Ex 6</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>Javascript</h1>
+			<h2>Partie 2 - Exercice 6</h2>
+			<div class="col-xs-12 col-sm-12 offset-md-1 col-md-10">
+				<div class="row">
+					<img src="Assets/img/image1.jpg" id="image1" class="col-xs-12 col-sm-6 col-md" onmouseover="changeimg('image1')" onmouseout="resetimg('image1')">
+					<img src="Assets/img/image2.jpg" id="image2" class="col-xs-12 col-sm-6 col-md" onmouseover="changeimg('image2')" onmouseout="resetimg('image2')">
+					<img src="Assets/img/image3.jpg" id="image3" class="col-xs-12 col-sm-6 col-md" onmouseover="changeimg('image3')" onmouseout="resetimg('image3')">
+					<img src="Assets/img/image4.jpg" id="image4" class="col-xs-12 col-sm-6 col-md" onmouseover="changeimg('image4')" onmouseout="resetimg('image4')">
+					<img src="Assets/img/image5.jpg" id="image5" class="col-xs-12 col-sm-6 col-md" onmouseover="changeimg('image5')" onmouseout="resetimg('image5')">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="Assets/js/Ex6Js.js"></script>
+	</body>
+</html>
